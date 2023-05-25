@@ -1,0 +1,23 @@
+.nav-wrapper {
+  width: 178px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  color: #808080;
+  text-align: center;
+}
+
+.item-nav-wrapper{
+  width: 100px;
+  height: 40px;
+  letter-spacing: 0.5px;
+}
+
+.item-nav-wrapper a:hover {
+  color: #caff33;
+  letter-spacing: 2px;
+  transition: 1.2s;
+}

@@ -1,0 +1,39 @@
+.project-item {
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title-project {
+  border-bottom: 1px solid #eb9455;
+  letter-spacing: 2px;
+  color: #eb9455;
+}
+
+.title-project a {
+  text-decoration: none;
+  color: #eb9455;
+}
+
+.info-project-item {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.info-project-item i {
+  font-size: 20px;
+}
+
+.description-project {
+  width: 350px;
+  text-align: center;
+  color: #cbcbcb;
+}
+
+.programming-language-used {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}

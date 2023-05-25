@@ -1,0 +1,12 @@
+.ocultar {
+    display: none;
+}
+
+.selected-item {
+    border-bottom: 5px solid #CAFF33;
+}
+
+.selected-item a {
+    color: #CAFF33;
+    letter-spacing: 2px;
+}

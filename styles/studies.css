@@ -1,0 +1,40 @@
+.info-studie-container{
+  height: 180px;  
+  color: #bcbcbc;
+}
+
+.info-studie-container h3{
+  color: #7b7b7b;
+  border-bottom: 1px solid #eb9455;
+}
+
+.info-studie-container a{
+  text-decoration: none;
+  color: #bcbcbc;
+}
+
+.studie-item-container {
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.studie-items-container {
+  width: 396px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.studie-item {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.school-logo {
+  width: 150px;
+}
