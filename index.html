@@ -5,15 +5,11 @@
   <meta name="viewport" content="width=device-width" />
   <title>Jeferson Morales</title>
 
-  <link rel="icon" type="image/x-icon" href="/icon.png">
-
+  <link rel="stylesheet" href="styles/javascript.css"/>
   <link rel="stylesheet" href="styles/styles.css"/>
   <link rel="stylesheet" href="styles/nav-wrapper.css">
-  <link rel="stylesheet" href="styles/projects.css">
-  <link rel="stylesheet" href="styles/javascript.css"/>
-  <link rel="stylesheet" href="styles/studies.css"/>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/0c5e2db7ae.js" crossorigin="anonymous"></script>
   </head>
 
@@ -21,52 +17,53 @@
 <div class="body-page">
   <div class="info-show-container">
     <div class="topic-container" id="welcome-container">
-      <div class="title-container"><h1>Bienvenido.</h1></div>
+      <div class="title-container">
+        <h1>Bienvenido.</h1>
+      </div>
+
       <div class="info-container">
-        <p class="welcome-description">Mi nombre es Jeferson Morales. Actualmente soy estudiante de licenciatura y cursos con interes en el aprendizaje de programacion con objetivo de ser Full Stack.</p>
+        <p>Soy <a id="direct-to-knowme" href="#">Jeferson Morales</a>. <br> Estudiante de Ingeniería en Diseño de Software y Redes. Tengo interés en el aprendizaje continuo sobre programación, donde pueda mejorar mis conocimientos y superar todos mis retos.</p>
       </div>
     </div>
 
     <div class="topic-container" id="studies-container">
-
       <div class="title-container">
-        <h1>Desarrollo personal.</h1>
+        <h1>Estudios.</h1>
       </div>
 
-      <div class="info-container" id="studies-list-container">
-        
-        <div class="studie-items-container">
-          <div class="studie-item">
-            <div class="info-studie-container">
-              <h3>Licenciatura</h3>
-              <p class="item-description-study">Ingeniería en Software</p>
+      <div class="info-container">            
+        <div class="list-item">
+          <h3>Licenciatura</h3>
+          <div class="list-item-info">
+            <div class="list-item-description">
+              <p>Ingeniería en Software</p>
               <a href="https://uvm.mx/la-uvm/campus/campus-coyoacan" target="_blank">Universidad del Valle de México</a>
             </div>
 
-            <div class="school-logo-container">
-              <img class="school-logo" id="logo_uvm" src="https://seeklogo.com/images/L/linces-uvm-logo-B8205F0C7E-seeklogo.com.png" alt="logo-uvm"/>
-            </div>
-          </div>
+            <img id="school-logo" id="logo_uvm" src="https://seeklogo.com/images/L/linces-uvm-logo-B8205F0C7E-seeklogo.com.png" alt="logo-uvm"/>
+          </div>  
+        </div>
 
-          <div class="studie-item">
-            <div class="info-studie-container">
-              <h3>Cursos</h3>
-              <p class="item-description-study">Front End & Back End</p>
-              <a href="https://www.oracle.com/mx/education/oracle-next-education/" target="_blank">One Next Education & Alura Latam</a>
+        <div class="list-item">
+          <h3>Cursos</h3>
+          <div class="list-item-info">
+            <div class="list-item-description">
+              <p>Front End & Back End</p>
+              <a href="https://www.oracle.com/mx/education/oracle-next-education/" target="_blank">Oracle Next Education & Alura Latam</a>
             </div>
 
-            <div class="school-logo-container">
-              <img class="school-logo" id="logo_one" src="https://emanuelcebas.github.io/Portafolio/assets/images/logo-one.png" alt="logo-one" />
-            </div>
+            <img id="school-logo" id="logo_one" src="https://emanuelcebas.github.io/Portafolio/assets/images/logo-one.png" alt="logo-one" />
           </div>
         </div>
       </div>
     </div>
 
     <div class="topic-container" id="knowme-container">
-      <div class="title-container"><h1>Conóceme.</h1></div>
+      <div class="title-container">
+        <h1>Conóceme.</h1>
+      </div>
       <div class="info-container">
-        <p class="knowme-description">Como estudiante de Ingeniería de Software, estoy listo para aportar mis habilidades técnicas, mi pasión por la programación y mi disposición para aprender a un equipo de trabajo. Estoy emocionado por la oportunidad de crecer profesionalmente y contribuir al éxito de una empresa en el campo de la ingeniería de software.</p>
+        <p>Como estudiante de Ingeniería en Software, estoy listo para aportar mis habilidades técnicas, mi pasión por la programación y mi disposición para aprender a un equipo de trabajo. Estoy emocionado por la oportunidad de crecer profesionalmente y contribuir al éxito de una empresa en el campo de la ingeniería de software.</p>
       </div>
     </div>
 
@@ -74,24 +71,14 @@
       <div class="title-container">
         <h1>Proyectos.</h1>
       </div>
-      <div class="info-container" id="info-container-projects">
-        <div class="projects">
+      <div class="info-container">
+          <div class="list-item">
+            <h3>Encriptador <a href="https://jefersonmorales.github.io/challengeonecodificador5/" target="_blank"><i class="fa-solid fa-link fa-fade"style="font-size: 18px; margin-left: 15px;"></i></a></h3>
 
-          <div class="project-item">
-            <div class="title-project">
-              <h3><a href="https://jefersonmorales.github.io/challengeonecodificador5/" target="_blank">Encriptador</a></h3>
-            </div>
-
-            <div class="info-project-item">
-              <div class="description-project">
-                Reto de encriptador y desencriptador por Oracle y Alura Latam
-              </div>
-
-              <div class="link-project-github">
-                <a href="https://github.com/jefersonmorales/challengeonecodificador5" target="_blank"><i style="color:grey;" class="fa-brands fa-git"></i></a>
-              </div>
-
-              <div class="programming-language-used">
+            <div class="list-item-info">
+              <p class="list-item-description">Reto de encriptador y desencriptador por Oracle y Alura Latam</p>
+              <a id="link-project-github" href="https://github.com/jefersonmorales/challengeonecodificador5" target="_blank"><i style="color:grey;" class="fa-brands fa-git"></i></a>
+              <div id="programming-language-used">
                 <i style="color: #f0db4f" class="fa-brands fa-square-js"></i>
                 <i style="color:#e34c26" class="fa-brands fa-html5"></i>
                 <i style="color:#2965f1" class="fa-brands fa-css3-alt"></i>
@@ -99,26 +86,17 @@
             </div>
           </div>
 
-          <div class="project-item">
-            <div class="title-project">
-              <h3>Dinner Menu</h3>
-            </div>
+          <div class="list-item">
+            <h3>Dinner Menu</h3>
 
-            <div class="info-project-item">
-              <div class="description-project">
-                Reto de seleccion de menu por Devcamp, Bottega School
-              </div>
-
-              <div class="link-project-github">
-                <a href="https://github.com/jefersonmorales/dinner-menu-js" target="_blank"><i style="color:grey;" class="fa-brands fa-git"></i></a>
-              </div>
-
-              <div class="programming-language-used">
+            <div class="list-item-info">
+              <p class="list-item-description">Reto de selección de menú por Devcamp, Bottega School</p>
+              <a id="link-project-github" href="https://github.com/jefersonmorales/dinner-menu-js" target="_blank"><i style="color:grey;" class="fa-brands fa-git"></i></a>
+              <div id="programming-language-used">
                 <i style="color: #f0db4f" class="fa-brands fa-square-js"></i>
               </div>
             </div>
           </div>
-        </div>
       </div>
     </div>
   </div>
@@ -131,11 +109,11 @@
     </div>
 
     <div class="item-nav-wrapper" id="studies-nav">
-      <a>Desarrollo personal</a>
+      <a>Estudios</a>
     </div>
 
     <div class="item-nav-wrapper" id="knowme-nav">
-      <a>Conóceme más</a>
+      <a>Conóceme</a>
     </div>
 
     <div class="item-nav-wrapper" id="projects-nav">

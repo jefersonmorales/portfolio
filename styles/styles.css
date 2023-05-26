@@ -1,21 +1,53 @@
 body,html {
   height: 100%;
   width: 100%;
+  user-select: none;
 }
-a{
-  cursor: pointer;
-} 
+
 body {
   margin: 0;
   background: #1d1d20;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 50px;
-  user-select: none;
 }
+
+i {
+  font-size: 25px;
+}
+
+a{
+  font-weight: 900;
+  text-decoration: none;
+  color: #cbcbcb;
+  cursor: pointer;
+  transition: 1.3s;
+} 
+
+a:hover {
+  color: #ff8d0a;
+}
+
+h1{
+  font-size: 58px;
+  font-weight: 100;
+  color: #fafafa;
+  letter-spacing: 4.5px;
+}
+
+h3 {
+  letter-spacing: 2px;
+  color: #eb9455;
+  border-bottom: 1px solid #eb9455;
+}
+
+p{
+  font-size: 22px;
+  color: #cbcbcb;
+}
+
 .body-page {
   display: flex;
   align-items: center;
@@ -24,45 +56,84 @@ body {
   padding: 32px;
   gap: 35px;
 }
+
 .info-show-container {
   width: 680px;
   height: 460px;
 }
-.topic-container {
-  width: 680px;
-  height: 460px;
-  display: flex;
-  flex-direction: column;
-}
+
 .title-container {
   height: 64px;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
 }
-.title-container h1 {
-  font-weight: 100;
-  font-size: 58px;
-  letter-spacing: 4.5px;
-  color: #d3d3d3;
-}
+
 .info-container {
   width: 680px;
   height: 400px;
   display: flex;
-  justify-content: center;
-  text-align: justify;
+  flex-direction: column;
 }
-.welcome-description, .knowme-description {
-  width: 620px;
-  margin-top: 90px;
-  font-size: 20px;
-  letter-spacing: 1px;
-  color: #cbcbcb;
-}
+
 .line-space {
   width: 4px;
-  height: 200px;
+  height: 347px;
   background: rgb(202,255,51);
   background: linear-gradient(185deg, rgba(202,255,51,1) 0%, rgba(235,148,85,1) 100%);
+}
+
+/* WELCOME */
+#welcome-container > .info-container {
+  justify-content: center;
+}
+
+#direct-to-knowme {
+  font-size: 28px;
+  font-weight: 900;
+  color: #ffa80a;
+}
+
+/* STUDY */
+#school-logo {
+  width: 150px;
+}
+
+/* STUDY AND PROYECTS */
+#studies-container > .list-item-description {
+  height: 52px;
+}
+
+.list-item {
+  height: 180px;
+}
+
+.list-item-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.list-item-description {
+  width: 463px;
+  height: 150px;
+}
+
+/* KNOW ME */
+#projects-container > .info-container > .list-item > .list-item-info > .list-item-description {
+  height: 54px;
+}
+
+#knowme-container > .info-container {
+  justify-content: center;
+}
+
+/* PROJECTS */
+#programming-language-used {
+  width: 100px;
+  text-align: center;
+}
+
+#link-project-github {
+  width: 50px;
+  text-align: center;
 }
