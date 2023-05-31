@@ -12,7 +12,12 @@ body {
   align-items: center;
   justify-content: center;
   font-family: 'Inter', sans-serif;
-  font-size: 19px;
+  color: #fafafa;
+  gap: 20px;
+}
+
+.left-image {
+  width: 257px;
 }
 
 i {
@@ -34,7 +39,6 @@ a:hover {
 h1{
   font-size: 58px;
   font-weight: 100;
-  color: #fafafa;
   letter-spacing: 4.5px;
 }
 
@@ -44,8 +48,10 @@ h3 {
   border-bottom: 1px solid #eb9455;
 }
 
-p{
-  color: #cbcbcb;
+#welcome-container > .info-container p ,
+#knowme-container > .info-container p{
+  line-height: 28px;
+  width: 554px;
 }
 
 .body-page {
@@ -58,7 +64,7 @@ p{
 }
 
 .info-show-container {
-  width: 680px;
+  width: 604px;
   height: 460px;
 }
 
@@ -69,21 +75,22 @@ p{
 }
 
 .info-container {
-  width: 680px;
   height: 400px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .line-space {
   width: 4px;
   height: 347px;
-  background: rgb(202,255,51);
-  background: linear-gradient(185deg, rgba(202,255,51,1) 0%, rgba(235,148,85,1) 100%);
+  background: #caff33;
+  background: linear-gradient(185deg, #caff33 0%, rgba(235,148,85,1) 100%);
 }
 
 /* WELCOME */
-#welcome-container > .info-container {
+#welcome-container>.info-container,
+#knowme-container>.info-container{
   justify-content: center;
 }
 
@@ -91,49 +98,66 @@ p{
   font-size: 28px;
   font-weight: 900;
   color: #ffa80a;
+  cursor: pointer;
 }
 
 /* STUDY */
+.list-information-container {
+  width: 290px;
+}
+
 #school-logo {
   width: 150px;
+  height: 91px;
+}
+
+#studies-container > .info-container > .list-item > .list-item-info {
+  display: flex;
+  gap: 114px;
 }
 
 /* STUDY AND PROYECTS */
-#studies-container > .list-item-description {
-  height: 52px;
-}
-
 .list-item {
-  height: 180px;
-}
-
-.list-item-info {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.list-item-description {
-  width: 463px;
-  height: 150px;
-}
-
-/* KNOW ME */
-#projects-container > .info-container > .list-item > .list-item-info > .list-item-description {
-  height: 54px;
-}
-
-#knowme-container > .info-container {
-  justify-content: center;
+  width: 554px;
 }
 
 /* PROJECTS */
+#projects-container > .info-container > .list-item > .list-item-info {
+  display: flex;
+  align-items: center;
+}
+
+#projects-container > .info-container > .list-item > .list-item-info > .list-item-description{
+  width: 315px;
+}
+
 #programming-language-used {
   width: 100px;
   text-align: center;
 }
 
 #link-project-github {
-  width: 50px;
+  width: 100px;
   text-align: center;
+}
+
+#link-project-github a{
+  color: #808080;
+  font-style: italic;
+}
+
+#link-project-github a:hover{
+  color: #cbcbcb;
+  border-bottom: 1px solid #808080;
+  transition: 3s;
+}
+
+#programming-language-used img {
+  height: 25px;
+}
+
+.social-networks {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }

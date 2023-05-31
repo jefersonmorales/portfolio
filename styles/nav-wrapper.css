@@ -11,13 +11,17 @@
 }
 
 .nav-wrapper a{
-  color: #7b7b7b;
+  color: #fafafa;
+  font-weight: 900;
 }
 
 .item-nav-wrapper{
   height: 25px;
   width: 100px;
   letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .item-nav-wrapper a:hover {
